@@ -1,10 +1,14 @@
+import {FaHome,FaTools,FaPhone,FaBlog,MdBusinessCenter,FaRing,FaBuilding,FaUserGraduate   } from '@/public/icons/page'
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'home', label: 'خانه', icon: FaHome }, 
+  { href: '/', key: 'investment', label: ' تجارت', icon: MdBusinessCenter }, 
+  { href: '/', key: 'marriage', label: 'ازدواج', icon: FaRing }, 
+  { href: '/', key: 'buying propery', label: 'ملک', icon: FaBuilding }, 
+  { href: '/', key: 'education', label: 'تحصیل', icon: FaUserGraduate   }, 
+  { href: '/', key: 'services', label: 'خدمات', icon: FaTools },
+  { href: '/', key: 'blog', label: 'اخبار', icon: FaBlog }, 
+  { href: '/', key: 'contact_us', label: 'تماس', icon: FaPhone },
 ];
 
 // CAMP SECTION
